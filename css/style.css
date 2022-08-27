@@ -381,16 +381,18 @@ background-color: #f7f7f7;
 	font-weight: bold;
 	letter-spacing: 2.8px;
 	text-align: center;
-	color: #fff;
+	
 	
 }
 
 .shop-bottom-button {
+	display: block;
 	border: solid 1px #ffffff80;
 	width: 300px;
 	margin: 0 auto;
 	padding: 17px 0;
 	text-transform: uppercase;
+	color: #fff;
 }
 /* --------------------------------------------------------------------------contact */
 .contact {
@@ -440,4 +442,62 @@ form {
 	padding: 22px 0;
 }
 /* --------------------------------------------------------------------------footer */
+.footer {
+	background-color: #f7f7f7;
+	padding: 99px 0 103px;
+}
 
+.footer-conteiner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.footer-flex {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+.footer-column {
+	flex: 1 1 33.333%;
+}
+
+.footer-left {}
+
+.footer-left-text {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.29;
+	color: #848789;
+}
+.footer-left-text p:first-child{
+	font-style: normal;
+	font-weight: bold;
+}
+
+.footer-center {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-link {
+	margin: 0 7.5px;
+}
+
+.footer-right {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.footer-right-text {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.29;
+	text-align: right;
+	color: #848789;
+}
+
+.footer-right-logo {
+	margin-left: 9px;
+}
