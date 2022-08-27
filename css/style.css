@@ -390,6 +390,54 @@ background-color: #f7f7f7;
 	width: 300px;
 	margin: 0 auto;
 	padding: 17px 0;
+	text-transform: uppercase;
 }
 /* --------------------------------------------------------------------------contact */
+.contact {
+	padding: 109px 0;
+	text-align: center;
+}
+
+.contact-logo {
+	margin-bottom: 30px;
+}
+h4 {
+	font-size: 24px;
+	font-style: italic;
+	line-height: 1.42;
+	text-align: center;
+	color: #848789;
+}
+.contact-tittle {
+	margin-bottom: 31px;
+}
+
+.contact-form {
+	max-width: 534px;
+	margin: 0 auto;
+	
+}
+form {
+	display: flex;
+	justify-content: space-between;
+}
+.contact-input {
+	border: 1px solid #d3d7d9;
+	width: 400px;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 1.2;
+	color: #929292;
+	padding: 20px 0 23px 28px;
+}
+
+.contact-button {
+	width: 126px;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+	background-color: #64c29e;
+	padding: 22px 0;
+}
 /* --------------------------------------------------------------------------footer */
+
