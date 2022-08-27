@@ -86,6 +86,7 @@ h2 {
 	font-weight: bold;
 	letter-spacing: 3.6px;
 	color: #353738;
+	text-transform: uppercase;
 }
 
 .text {
@@ -99,7 +100,7 @@ background-color: #f7f7f7;
 }
 
 .about-conteiner {
-	padding: 117px 0 142px 0;
+	padding: 117px 0 133px 0;
 	text-align: center;
 }
 
@@ -119,6 +120,152 @@ background-color: #f7f7f7;
 
 
 /* --------------------------------------------------------------------------work */
+.work {
+	
+}
+
+.bike1 {
+	display: flex;
+}
+
+.bike1-leftside {
+		/* ---------------------------------------------ФЛЕКСЫ!!!!!!!!!!!!!!!!!!!!!!!! */
+	flex: 1 1 66.666%;
+	/* display: flex; */
+	position: relative;
+}
+.bike1-leftside-image {
+	/* position: absolute; */
+}
+.bike1-leftside-image img{
+	width: 100%;
+	height: 100%;
+}
+		/* ---------------------------------------------позиционирование картинки!!!!!!!!!!!!!!!!!!!!!!!! */
+.bike1-leftside-icon {
+	/* background-color: black; */
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+.bike1-leftside-icon img{
+	width: 100%;
+	height: 100%;
+}
+
+.bike1-rightside {
+	/* ---------------------------------------------ФЛЕКСЫ!!!!!!!!!!!!!!!!!!!!!!!! */
+	flex: 1 1 33.333%; 
+	padding-top: 70px;
+	text-align: center;
+}
+
+.bike1-rightside-icon {
+	margin-bottom: 28px;
+}
+
+.bike1-rightside-title {
+	margin-bottom: 14px;
+}
+
+.work-text{
+	font-size: 16px;
+	line-height: 1.88;
+	text-align: justify;
+	color: #848789;
+}
+.bike1-rightside-text {
+	max-width: 402px;
+	margin: 0 auto;
+}
+
+.bike1-rightside-line {
+	border-bottom: 1px solid #353738;
+	max-width: 50px;
+	margin: 35px auto 53px;
+}
+
+.bike1-rightside-image img{
+	width: 100%;
+	height: 100%;
+}
+
+/* -----------bike2 */
+.bike2 {
+	display: flex;
+	
+}
+.bike2 .bike1-rightside{
+	padding-top: 61px;
+}
+.bike2 .bike1-rightside-icon{
+	margin-bottom: 27px;
+}
+
+.bike2 .bike1-rightside-line{
+	margin: 35px auto 62px;
+}
+
+.bike2  .bike1-leftside-icon{
+	top: 37.3%;
+	left: 41.6%;
+}
+
+/* --------------bike3 */
+.bike3 {
+	display: flex;
+}
+
+.bike3-column {
+	flex: 0 0 33.333%;
+}
+.bike3-left {
+	position: relative;
+}
+
+.bike3-left-image img{
+	width: 100%;
+	height: 100%;
+}
+
+.bike3-left-icon {
+	position: absolute;
+	top: 44.5%;
+	left: 30.2%;
+}
+
+.bike3-center {
+	padding-top: 58px;
+	text-align: center;
+}
+
+.bike3-center-icon {
+	margin-bottom: 22px;
+}
+
+.bike3-center-title {
+	margin-bottom: 15px;
+}
+
+.bike3-center-text {
+	max-width: 402px;
+	margin: 0 auto;
+}
+.bike3-center-line {
+	border-bottom: 1px solid #353738;
+		max-width: 50px;
+		margin: 35px auto 60px;
+}
+
+.bike3-center-image img{
+	width: 100%;
+	height: 100%;
+}
+
+.bike3-right img{
+	/* width: 100%; */
+	height: 100%;
+}
 /* --------------------------------------------------------------------------twitter */
 /* --------------------------------------------------------------------------shop */
 /* --------------------------------------------------------------------------contact */
