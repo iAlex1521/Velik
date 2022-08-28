@@ -133,9 +133,8 @@ background-color: #f7f7f7;
 }
 
 .bike1-leftside {
-	flex: 0 0 66.666%;
+	flex: 1 1 66.667%;
 	position: relative;
-	
 }
 
 .bike1-leftside-image img{
@@ -144,24 +143,24 @@ background-color: #f7f7f7;
 }
 		/* ---------------------------------------------позиционирование картинки!!!!!!!!!!!!!!!!!!!!!!!! */
 .bike1-leftside-icon {
-	/* background-color: black; */
 	position: absolute;
-	top: 40%;
-	left: 45%;
-}
-.bike1-leftside-icon img{
 	width: 100%;
 	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(100, 194, 158, 0.5);
+	opacity: 0;	
+}
+
+.bike1-leftside-icon:hover{
+	opacity: 1;
 }
 
 .bike1-rightside {
-	/* ---------------------------------------------ФЛЕКСЫ!!!!!!!!!!!!!!!!!!!!!!!! */
-	flex: 0 0 33.333%; 
-	
+	flex: 1 1 33.333%; 
 	padding-top: 70px;
 	text-align: center;
-	/* display: flex;
-	flex-direction: column; */
 }
 
 .bike1-rightside-icon {
@@ -189,9 +188,7 @@ background-color: #f7f7f7;
 	margin: 35px auto 53px;
 }
 .bike1-rightside-image{
-	
-	/* width: 100%; */
-	/* height: 100 */
+
 }
 .bike1-rightside-image img{
 	width: 100%;
@@ -214,18 +211,13 @@ background-color: #f7f7f7;
 	margin: 35px auto 62px;
 }
 
-.bike2  .bike1-leftside-icon{
-	top: 37.3%;
-	left: 41.6%;
-}
-
 /* --------------bike3 */
 .bike3 {
 	display: flex;
 }
 
 .bike3-column {
-	flex: 0 0 33.333%;
+	flex: 1 1 33.333%;
 }
 .bike3-left {
 	position: relative;
