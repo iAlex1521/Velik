@@ -521,12 +521,13 @@ background-color: #f7f7f7;
 	.twitter-text p {		
 		margin-bottom: 30px;
 	}
-}
-@media (max-width:767px) {
-	.twitter-text{
+	.twitter-text {
 		margin: 0 auto;
 		padding: 0 30px;
 	}
+}
+@media (max-width:767px) {
+	
 }
 
 
